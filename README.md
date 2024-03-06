@@ -138,7 +138,8 @@
 
 - Set up the Gemini API keys in the AI Dashboard Template
 
-![Node-RED Environment](https://github.com/RJTPP/elevate-ai-public/assets/97868966/75111891-f395-411e-ad7a-745a8623c5c6)
+<img width="695" alt="node-red-env" src="https://github.com/RJTPP/elevate-ai-public/assets/97868966/439054ae-e11f-410c-9722-cbed81b72752">
+
 
 ## AI Integration
 
@@ -151,9 +152,7 @@ Incorporates the **Gemini API** for AI-powered analysis and suggestions based on
 3. Establish the MQTT broker for communication between the ESP32 modules and Node-RED.
 4. Access the dashboard through Node-RED UI to monitor environmental conditions and receive AI-based recommendations.
 
----
-
-**Develop by**
+## Develop by
 
 1. Rajata Thamcharoensatit [@RJTPP](https://github.com/RJTPP) - 6610502218
 2. Phutthiphong Rodboung [@Rennis](https://github.com/PRennis) - 6610502170
