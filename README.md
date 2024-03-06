@@ -138,7 +138,7 @@
 
 - Set up the Gemini API keys in the AI Dashboard Template
 
-![Node-RED Environment](https://github.com/RJTPP/elevate-ai/assets/97868966/fb674c98-f0c1-46ac-9944-488450d92f25)
+![Node-RED Environment](https://github.com/RJTPP/elevate-ai-public/assets/97868966/75111891-f395-411e-ad7a-745a8623c5c6)
 
 ## AI Integration
 
