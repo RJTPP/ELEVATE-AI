@@ -1,0 +1,3476 @@
+[
+    {
+        "id": "77ef0ab4df147d51",
+        "type": "tab",
+        "label": "Hardware Project",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cddd8c4e20d2a075",
+        "type": "tab",
+        "label": "Hardware project-Discord",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e4c5c8417117b8c1",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "name": "Dashboard",
+        "style": {
+            "label": true,
+            "stroke": "#a4a4a4"
+        },
+        "nodes": [
+            "6a5d8c7735810303",
+            "f08fe93b31292c8c",
+            "2530fb60b749de78",
+            "021f590a1831f86f"
+        ],
+        "x": 1362,
+        "y": 693,
+        "w": 1110,
+        "h": 880
+    },
+    {
+        "id": "6cfec5acbc8e5c82",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "name": "Sensor data manager",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "becdb38eda029aa1",
+            "78e314f6fe7f5038",
+            "2e64af33d0792486"
+        ],
+        "x": 1368,
+        "y": 13,
+        "w": 1144,
+        "h": 654
+    },
+    {
+        "id": "2d231976ebd8680a",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "name": "Debug",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0f70c69539a0d9f2",
+            "12d0a855be13e75c",
+            "dfad17ba36917b36",
+            "018a59adb842698c"
+        ],
+        "x": 2862,
+        "y": 567,
+        "w": 930,
+        "h": 1026
+    },
+    {
+        "id": "7977bd6ad3f02510",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "name": "Discord",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0505c1fd65d03d91",
+            "8cbb119a16fb24fd"
+        ],
+        "x": 756,
+        "y": 1001,
+        "w": 2022,
+        "h": 1232
+    },
+    {
+        "id": "c198f7553ba4a7ba",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "name": "Current time",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "07c31c1e02a95db7",
+            "471a68afa65bd17b",
+            "41f74f5fdc6961fa"
+        ],
+        "x": 2614,
+        "y": 199,
+        "w": 692,
+        "h": 82
+    },
+    {
+        "id": "8cbb119a16fb24fd",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "7977bd6ad3f02510",
+        "name": "Sending",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "33b7d708553a6d6e",
+            "5c2cc5b72c12b327",
+            "5d51899d2ad1ea1c",
+            "60591a1d05f3e331",
+            "a9847fe830e85e9f",
+            "15c1ecc1d2de5e6f"
+        ],
+        "x": 782,
+        "y": 1027,
+        "w": 1970,
+        "h": 920
+    },
+    {
+        "id": "0505c1fd65d03d91",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "7977bd6ad3f02510",
+        "name": "Reciving",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5350b8e98de4b4f8",
+            "6f8833e16bc658d8",
+            "94fbc7b0a4c20980"
+        ],
+        "x": 788,
+        "y": 1973,
+        "w": 1078,
+        "h": 234
+    },
+    {
+        "id": "f08fe93b31292c8c",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "e4c5c8417117b8c1",
+        "name": "Realtime Data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "38536806cdf15b20",
+            "16f9a72941441ae1",
+            "ab3ec873359b67b3",
+            "701aab174cfea40d",
+            "81d707ef3c5bc4a7",
+            "6762934ac9298e3c"
+        ],
+        "x": 1388,
+        "y": 839,
+        "w": 844,
+        "h": 708
+    },
+    {
+        "id": "2530fb60b749de78",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "e4c5c8417117b8c1",
+        "name": "HTML Header",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f8c3ba39b39d3bf5",
+            "8734528f0d3a15e5",
+            "7b2c478d2d4d8416",
+            "2d4857b3e6e1264b"
+        ],
+        "x": 1594,
+        "y": 719,
+        "w": 612,
+        "h": 82
+    },
+    {
+        "id": "78e314f6fe7f5038",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "6cfec5acbc8e5c82",
+        "name": "Auto AI for Arduino",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "240572cf937b405a",
+            "8aa2eedd82f4de31",
+            "d4cd02be15fa7ca5",
+            "ada5634dd192ab49",
+            "38575beb670524ca"
+        ],
+        "x": 1394,
+        "y": 559,
+        "w": 1092,
+        "h": 82
+    },
+    {
+        "id": "becdb38eda029aa1",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "6cfec5acbc8e5c82",
+        "name": "Combine JSON data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "73c1858e5b36358a",
+            "af581e8817914f51",
+            "fed92d292909066f",
+            "5ca30108a7e08932"
+        ],
+        "x": 1394,
+        "y": 379,
+        "w": 892,
+        "h": 162
+    },
+    {
+        "id": "021f590a1831f86f",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "e4c5c8417117b8c1",
+        "name": "AI for web",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "22d7985e9cc6020d",
+            "c1dab3212c223757",
+            "59365500bbcd9c9d",
+            "4739f78e09036575"
+        ],
+        "x": 2274,
+        "y": 919,
+        "w": 172,
+        "h": 262
+    },
+    {
+        "id": "2e64af33d0792486",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "6cfec5acbc8e5c82",
+        "name": "Extract data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3b8df544e05fd1b8",
+            "2ca38e3c295a751a",
+            "98dbace1414e36c7",
+            "34837b2a20a04d98",
+            "bab66f55426e87b1",
+            "eb855c1b92dfa3d5",
+            "0ed8b7af831ce6fa",
+            "965380f036617419",
+            "03754de85fac3d2d",
+            "7a7a3ccbc2728f7f",
+            "2f8ca530398d145d",
+            "708824453dc65e5e"
+        ],
+        "x": 1394,
+        "y": 39,
+        "w": 952,
+        "h": 322
+    },
+    {
+        "id": "dfad17ba36917b36",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "2d231976ebd8680a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "739ae3a9bb34baf8",
+            "fa6cedf2da832366",
+            "9bb680071bab45f0",
+            "e79bede77b90263e",
+            "712456ebf6029e88",
+            "0ddf41770764b1ed",
+            "ed5880cdce19ef83",
+            "4ef18ef76e26e84e",
+            "2b0b6eaeb7080939",
+            "5fbbbf24b08deb06",
+            "ce0a15dba664e79d"
+        ],
+        "x": 2888,
+        "y": 593,
+        "w": 878,
+        "h": 348
+    },
+    {
+        "id": "018a59adb842698c",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "2d231976ebd8680a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ad66465af46f0649",
+            "46ce83dc7d2ba8e0",
+            "d38920fcd3f60759",
+            "b459f46dd52d616c",
+            "0d174dec4391d5a6"
+        ],
+        "x": 2908,
+        "y": 1013,
+        "w": 584,
+        "h": 554
+    },
+    {
+        "id": "ad66465af46f0649",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "018a59adb842698c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5c29ed340ebf9da3",
+            "e0a61dfa9e4cb344"
+        ],
+        "x": 2934,
+        "y": 1039,
+        "w": 512,
+        "h": 82
+    },
+    {
+        "id": "46ce83dc7d2ba8e0",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "018a59adb842698c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f8b947665e87ef7e",
+            "2540f800a4738905"
+        ],
+        "x": 2934,
+        "y": 1139,
+        "w": 512,
+        "h": 82
+    },
+    {
+        "id": "d38920fcd3f60759",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "018a59adb842698c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "83dec60304a2bd77",
+            "8e0ad6d6970aba93"
+        ],
+        "x": 2934,
+        "y": 1239,
+        "w": 532,
+        "h": 82
+    },
+    {
+        "id": "0d174dec4391d5a6",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "018a59adb842698c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a15cf2ce49aeb531",
+            "24ab205efe29968f"
+        ],
+        "x": 2934,
+        "y": 1459,
+        "w": 532,
+        "h": 82
+    },
+    {
+        "id": "b459f46dd52d616c",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "018a59adb842698c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09b27826665c6195",
+            "6d2cd68c857a506d"
+        ],
+        "x": 2934,
+        "y": 1339,
+        "w": 532,
+        "h": 82
+    },
+    {
+        "id": "2b0b6eaeb7080939",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "dfad17ba36917b36",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d0248d85d59ba73d",
+            "18dc5774a0171c10"
+        ],
+        "x": 2914,
+        "y": 719,
+        "w": 332,
+        "h": 82
+    },
+    {
+        "id": "5fbbbf24b08deb06",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "dfad17ba36917b36",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "97425fc2839e1401",
+            "191d84fcfe5b4d52"
+        ],
+        "x": 2914,
+        "y": 819,
+        "w": 332,
+        "h": 82
+    },
+    {
+        "id": "ce0a15dba664e79d",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "dfad17ba36917b36",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "c224822fc1ccad57",
+            "13278379c41cd7a8"
+        ],
+        "x": 2914,
+        "y": 619,
+        "w": 332,
+        "h": 82
+    },
+    {
+        "id": "33b7d708553a6d6e",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "8cbb119a16fb24fd",
+        "name": "Sent chat",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c09124b2ce92f075",
+            "34839dfc2bd03b68"
+        ],
+        "x": 2274,
+        "y": 1279,
+        "w": 452,
+        "h": 82
+    },
+    {
+        "id": "5c2cc5b72c12b327",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "8cbb119a16fb24fd",
+        "name": "AI Model",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7508c9906252c9d3",
+            "4e998b4c9a8b25e6"
+        ],
+        "x": 1854,
+        "y": 1279,
+        "w": 352,
+        "h": 82
+    },
+    {
+        "id": "5d51899d2ad1ea1c",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "8cbb119a16fb24fd",
+        "name": "Condition checker",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "d60525def47a8beb",
+            "986b8ec025e525b8"
+        ],
+        "x": 808,
+        "y": 1053,
+        "w": 990,
+        "h": 600
+    },
+    {
+        "id": "6f8833e16bc658d8",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "0505c1fd65d03d91",
+        "name": "Cammand Input",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "9fc8eeea6e23d2f2",
+            "0dd9a874e08fb1d2",
+            "b3e77028123c6d31",
+            "ddb7ed5b2128183a"
+        ],
+        "x": 814,
+        "y": 1999,
+        "w": 692,
+        "h": 182
+    },
+    {
+        "id": "16f9a72941441ae1",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "f08fe93b31292c8c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f1ba4e28a3f266d3",
+            "f97e2def49e0f132",
+            "5d2c7d24e6bb64e9"
+        ],
+        "x": 1414,
+        "y": 919,
+        "w": 792,
+        "h": 82
+    },
+    {
+        "id": "ab3ec873359b67b3",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "f08fe93b31292c8c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1b8a61b992040db1",
+            "eb94a54fc389074b",
+            "dae0f58ead3e36c2"
+        ],
+        "x": 1414,
+        "y": 1019,
+        "w": 792,
+        "h": 82
+    },
+    {
+        "id": "701aab174cfea40d",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "f08fe93b31292c8c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2aacfb9f2871446e",
+            "93f7ade0b8c7f43c",
+            "321925aaf7558ced"
+        ],
+        "x": 1414,
+        "y": 1379,
+        "w": 792,
+        "h": 142
+    },
+    {
+        "id": "81d707ef3c5bc4a7",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "f08fe93b31292c8c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "93ce3f817fe7efbd",
+            "4cc9a925aef120fa",
+            "9e6375a5ba22dbaf"
+        ],
+        "x": 1414,
+        "y": 1219,
+        "w": 792,
+        "h": 142
+    },
+    {
+        "id": "6762934ac9298e3c",
+        "type": "group",
+        "z": "77ef0ab4df147d51",
+        "g": "f08fe93b31292c8c",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "907be34d0bc3217e",
+            "d95b19e037141b9d",
+            "d5eaeef6afd0204b"
+        ],
+        "x": 1414,
+        "y": 1119,
+        "w": 792,
+        "h": 82
+    },
+    {
+        "id": "60591a1d05f3e331",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "8cbb119a16fb24fd",
+        "name": "Reset when back",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "e7abd1a55812805f",
+            "ccf16abcf56ff85d",
+            "913bb6fdaa4173bd",
+            "8700b6381a30e5d1",
+            "a9c0cea40fe88922",
+            "0a430662c86fa0c3"
+        ],
+        "x": 814,
+        "y": 1679,
+        "w": 1132,
+        "h": 122
+    },
+    {
+        "id": "a9847fe830e85e9f",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "8cbb119a16fb24fd",
+        "name": "Reset when restart",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "2b6ad3a6b5d5f955",
+            "6b220ed388cf716f",
+            "deaf33e252f9e8c2",
+            "8e5b4da44fdcb28b"
+        ],
+        "x": 814,
+        "y": 1839,
+        "w": 992,
+        "h": 82
+    },
+    {
+        "id": "d60525def47a8beb",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "5d51899d2ad1ea1c",
+        "name": "Reminder prompt",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "842f3aa79eff317f",
+            "a7a7c7fb7fd8b305",
+            "5838da3a784eb238",
+            "8eda1b7893b1e47c",
+            "04c272188c6d7781"
+        ],
+        "x": 834,
+        "y": 1079,
+        "w": 932,
+        "h": 142
+    },
+    {
+        "id": "986b8ec025e525b8",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "5d51899d2ad1ea1c",
+        "name": "Standing and sitting",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "adb7f926934a950b",
+            "ea641d4738257dc2",
+            "e860c3bbef91309c"
+        ],
+        "x": 834,
+        "y": 1253,
+        "w": 938,
+        "h": 374
+    },
+    {
+        "id": "ea641d4738257dc2",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "986b8ec025e525b8",
+        "name": "Compliment prompt",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "78612e454ddc28cf",
+            "670662d63a835067",
+            "c1e16a1168979c0f",
+            "f2d9a253e01c9efc"
+        ],
+        "x": 1194,
+        "y": 1279,
+        "w": 552,
+        "h": 142
+    },
+    {
+        "id": "e860c3bbef91309c",
+        "type": "group",
+        "z": "cddd8c4e20d2a075",
+        "g": "986b8ec025e525b8",
+        "name": "Welcome back prompt",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "60532d78d9946c3c",
+            "7526f4353c442d31",
+            "211a38681e4df99b",
+            "d1c52f7360b08053"
+        ],
+        "x": 1194,
+        "y": 1459,
+        "w": 532,
+        "h": 142
+    },
+    {
+        "id": "708824453dc65e5e",
+        "type": "junction",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "x": 1720,
+        "y": 200,
+        "wires": [
+            [
+                "2ca38e3c295a751a",
+                "98dbace1414e36c7",
+                "34837b2a20a04d98",
+                "bab66f55426e87b1",
+                "eb855c1b92dfa3d5"
+            ]
+        ]
+    },
+    {
+        "id": "0ddf41770764b1ed",
+        "type": "junction",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "dfad17ba36917b36",
+        "x": 3300,
+        "y": 760,
+        "wires": [
+            [
+                "9bb680071bab45f0",
+                "fa6cedf2da832366",
+                "739ae3a9bb34baf8"
+            ]
+        ]
+    },
+    {
+        "id": "ed5880cdce19ef83",
+        "type": "junction",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "dfad17ba36917b36",
+        "x": 3300,
+        "y": 860,
+        "wires": [
+            [
+                "e79bede77b90263e"
+            ]
+        ]
+    },
+    {
+        "id": "4ef18ef76e26e84e",
+        "type": "junction",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "dfad17ba36917b36",
+        "x": 3300,
+        "y": 660,
+        "wires": [
+            [
+                "712456ebf6029e88"
+            ]
+        ]
+    },
+    {
+        "id": "15c1ecc1d2de5e6f",
+        "type": "junction",
+        "z": "cddd8c4e20d2a075",
+        "g": "8cbb119a16fb24fd",
+        "x": 1840,
+        "y": 1320,
+        "wires": [
+            [
+                "7508c9906252c9d3"
+            ]
+        ]
+    },
+    {
+        "id": "94fbc7b0a4c20980",
+        "type": "junction",
+        "z": "cddd8c4e20d2a075",
+        "g": "0505c1fd65d03d91",
+        "x": 1560,
+        "y": 2080,
+        "wires": [
+            [
+                "5350b8e98de4b4f8"
+            ]
+        ]
+    },
+    {
+        "id": "907e3ef9fbb234cd",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#f0f5ff",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#f0f5ff",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#f0f5ff",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#f0f5ff",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "false",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9c3ea0b452775fd8",
+        "type": "ui_group",
+        "name": "Switch",
+        "tab": "42357a333849a717",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6ed343fd2fc174c7",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "3ab9de2cf58ceca2",
+        "order": 3,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3ab9de2cf58ceca2",
+        "type": "ui_tab",
+        "d": true,
+        "name": "Lab 8-1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "facfbdf26c1b485b",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "42357a333849a717",
+        "order": 1,
+        "disp": true,
+        "width": 8,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "42357a333849a717",
+        "type": "ui_tab",
+        "d": true,
+        "name": "Lab 8-1Chart",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3c36b032229b681f",
+        "type": "ui_group",
+        "name": "Weather",
+        "tab": "bdf60f1246d28bdb",
+        "order": 2,
+        "disp": true,
+        "width": 19,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bdf60f1246d28bdb",
+        "type": "ui_tab",
+        "name": "AI",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2cadeb4258b9eaea",
+        "type": "global-config",
+        "name": "global-config",
+        "env": [
+            {
+                "name": "GEMINI_API_KEY",
+                "value": "",
+                "type": "str"
+            },
+            {
+                "name": "RED",
+                "value": "#fac8be",
+                "type": "str"
+            },
+            {
+                "name": "YELLOW",
+                "value": "#f9fabe",
+                "type": "str"
+            },
+            {
+                "name": "GREEN",
+                "value": "#befac2",
+                "type": "str"
+            },
+            {
+                "name": "OLED_MAX_CHAR_PER_LINE",
+                "value": "20",
+                "type": "num"
+            },
+            {
+                "name": "CHANNEL_ID",
+                "value": "",
+                "type": "str"
+            },
+            {
+                "name": "BLUE",
+                "value": "#c2d9fc",
+                "type": "str"
+            }
+        ]
+    },
+    {
+        "id": "07d20ca6464ad634",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "9f86896eabd2023d",
+        "order": 1,
+        "disp": true,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9f86896eabd2023d",
+        "type": "ui_tab",
+        "name": "Gemini Chat",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5da001fa6a780624",
+        "type": "discord-token",
+        "name": "Hardware discord"
+    },
+    {
+        "id": "706e5e14cb655e98",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "iot.cpe.ku.ac.th",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "80943f737235456d",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "1ebc99a5cfbddc87",
+        "order": 1,
+        "disp": true,
+        "width": "30",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1ebc99a5cfbddc87",
+        "type": "ui_tab",
+        "name": "Gemini Chat",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "c1cbe89385a77350",
+        "type": "discord-token",
+        "name": "Hardware discord"
+    },
+    {
+        "id": "5f80e2c7bf309bcc",
+        "type": "ui_spacer",
+        "z": "77ef0ab4df147d51",
+        "name": "spacer",
+        "group": "3c36b032229b681f",
+        "order": 10,
+        "width": 3,
+        "height": 1
+    },
+    {
+        "id": "22d7985e9cc6020d",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "021f590a1831f86f",
+        "group": "3c36b032229b681f",
+        "name": "Ai Script",
+        "order": 4,
+        "width": 1,
+        "height": 1,
+        "format": "<script type=\"module\">\n    import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from \"https://esm.run/@google/generative-ai\";\n\n\n        // const API_KEY = \"AIzaSyC-vbJ7TTmfqbSo4M1ODmysNr224dNiw0c\";\n        const genAI = new GoogleGenerativeAI(API_KEY);\n        const generationConfig = {\n            temperature: 0.5,\n            topP: 0.95,\n            topK: 16,\n        };\n        const safetySettings = [\n            {\n                category: HarmCategory.HARM_CATEGORY_HARASSMENT,\n                threshold: HarmBlockThreshold.BLOCK_NONE,\n            },\n            {\n                category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,\n                threshold: HarmBlockThreshold.BLOCK_NONE,\n            },\n            {\n                category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,\n                threshold: HarmBlockThreshold.BLOCK_NONE,\n            },\n            {\n                category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,\n                threshold: HarmBlockThreshold.BLOCK_NONE,\n            }\n        ];\n        const model = genAI.getGenerativeModel({ model: \"gemini-pro\", generationConfig, safetySettings });\n\n        const htmlPrompt = `I want you to act as a weather bot. Do not respond with mark-up format. You must respond with html format inside <md-block> tag. I am working at my desk and I want you to analyse environment for me. I will provide necessary data. You will summarize the given data then tell me if it good or bad to work in this environment and what I should do. Please don't give me to long respond: `;\n\n        const textPrompt = `I want you to act as a weather bot. Do not respond with mark-up format. You must respond with plain text only with no \"*\" symbol. I will provide necessary data. You will summarize the given if it good or bad. summarize it into topics which has characters between 100-200 characters for me.:`;\n\n        let isFinish = true;\n\n        // Function\n\n        // timer\n        let start = Date.now();\n        let second = 0;\n        \n        function timer() {\n            let diff = ((Date.now() - start) / 1000).toFixed(1);\n            { second } globalThis;\n            second = diff;\n            document.getElementById('timer').innerHTML = '<p>time ' + second + ' s</p>';\n        }\n\n\n        function startTimer() {\n            { start } globalThis;\n            start = Date.now();\n            myTimer = setInterval(timer, 100);\n        }\n\n\n        function stopTimer() {\n            clearInterval(myTimer);\n        }\n\n        // startTimer();\n\n        // Typing Effect\n        function typing(element, text, i = 0) {\n            if (i === 0) {\n                element.textContent = \"\";\n            }\n            element.textContent += text[i];\n\n            if (i === text.length - 1) {\n                isFinish = true;\n                return;\n            }\n\n            setTimeout(() => typing(element, text, i + 1), 25);\n        }\n\n        // AI on web\n        async function runWithUserInput() {\n\n            const temperature = document.getElementById(\"value-temperature\").innerText;\n            const humidity = document.getElementById(\"value-humidity\").innerText;\n            const airQuality = document.getElementById(\"value-air\").innerText;\n            const uv = document.getElementById(\"value-uv\").innerHTML;\n            const light = document.getElementById(\"value-light\").innerHTML;\n            console.log({ temperature, humidity, airQuality, uv, light });\n\n            // Prevent spam click\n            if (!isFinish) {\n                console.log(\"Not fished yet\")\n                return;\n            }\n            isFinish = false;\n\n            document.getElementById('resultDisplay').innerHTML = '<h6>Analyzing...<h6>';\n            // document.getElementById('resultDisplay').innerHTML = '<h6 id=\"temp_tag\"><h6>';\n            // typing(document.querySelector(\"#temp_tag\"), \"Analyzing...\")\n\n\n            // Get the user input from the input field\n            const userInput = document.getElementById('userInputPrompt').value;\n            document.getElementById('userInputPrompt').value = \"\"\n            // document.getElementById(\"resultDisplay\").value = \"\"\n\n            // Create prompt\n            let aiInput = htmlPrompt;\n            aiInput += \" Current time is \" + (new Date().toLocaleString()) + \". temperature \" + temperature + \", humidity \" + humidity + \", uv index \" + uv + \"light level \" + light + \", CO₂ level is \" + airQuality;\n\n            // Add user's question to prompt\n            if (userInput.trim() !== '') {\n                aiInput += \"\\nFrom given data please answer this question: \" + userInput + \".\";\n            }\n\n            console.log(aiInput)\n\n            // Generate respond\n            try {\n                const result = await model.generateContentStream(aiInput);\n\n                let text = '';\n                for await (const chunk of result.stream) {\n                    let chunkText = chunk.text();\n                    // console.log(chunkText);\n                    text += chunkText;\n                    text = text.replaceAll(\"`\", \"\")\n                    text = text.replace(\"<html>\", \"\")\n                    text = text.replace(\"html\", \"\")\n\n                    // Optionally, display the result on the page\n                    document.getElementById('resultDisplay').innerHTML = '<div class=\"alert alert-dark\" markdown=\"1\">' + text + \"</div>\";\n                    // typing(document.querySelector(\"#resultDisplay\"), text)\n                }\n                console.log(text);\n            } catch (error) {\n                console.error(\"Error generating content:\", error);\n            }\n\n            isFinish = true;\n        }\n\n        // Ai for Ardruno\n        async function autoAI() {\n            \n            const temperature = document.getElementById(\"value-temperature\").innerText;\n            const humidity = document.getElementById(\"value-humidity\").innerText;\n            const airQuality = document.getElementById(\"value-air\").innerText;\n            const uv = document.getElementById(\"value-uv\").innerHTML;\n            const light = document.getElementById(\"value-light\").innerHTML;\n            console.log({ temperature, humidity, airQuality, uv, light });\n            \n            let aiInput = textPrompt +  \" Current time is \" + (new Date().toLocaleString()) + \". temperature \" + temperature + \", humidity \" + humidity + \", uv index \" + uv + \"light level \" + light + \", CO2 level is \" + airQuality + \" ppm. \";\n            \n            console.log(aiInput)\n            \n            // Generate respond\n            try {\n                const result = await model.generateContent(aiInput);\n                const response = await result.response;\n                const text = response.text();\n                console.log(\"auto: \" + text);\n                document.getElementById(\"invisible-respond\").innerText = text;\n            } catch (error) {\n                console.error(\"Error auto generate:\", error);\n            }\n            \n        }\n\n        function startAutoAi() {\n            // for first time\n            setTimeout(autoAI, 3000);             \n            setInterval(autoAI, 60000);\n        }\n        // startAutoAi()\n        \n\n\n        // Attach the event listener to the button\n        document.getElementById('generateContentButton').addEventListener('click', runWithUserInput);\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2360,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1dab3212c223757",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "021f590a1831f86f",
+        "group": "3c36b032229b681f",
+        "name": "Ai input",
+        "order": 16,
+        "width": 10,
+        "height": 3,
+        "format": "<div class=\"me-4\" style=\"padding-top: 35px;\">\n    <input type=\"text\" id=\"userInputPrompt\" class=\"form-control\" placeholder=\"Ask AI (Optional)\">\n    <br>\n    <button id=\"generateContentButton\" class=\"btn btn-light\" style=\"width: 100%;\">Analyze Data</button>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2360,
+        "y": 1140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "59365500bbcd9c9d",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "021f590a1831f86f",
+        "group": "3c36b032229b681f",
+        "name": "Ai output",
+        "order": 11,
+        "width": 10,
+        "height": 8,
+        "format": "<div id=\"resultDisplay\" class=\"overflow-x-auto  me-4\" markdown=\"1\"></div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2360,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b2c478d2d4d8416",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "2530fb60b749de78",
+        "group": "6ed343fd2fc174c7",
+        "name": "Bootstrap 5.3.2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<link href=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css\" rel=\"stylesheet\" integrity=\"sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN\" crossorigin=\"anonymous\">\n<script src=\"https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js\"\n    integrity=\"sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r\" crossorigin=\"anonymous\">\n</script>\n<script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js\"\n    integrity=\"sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+\" crossorigin=\"anonymous\">\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 1860,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8734528f0d3a15e5",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "2530fb60b749de78",
+        "group": "6ed343fd2fc174c7",
+        "name": "CSS",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .custom-input {\n        margin: 0px !important;\n        padding: 0px !important;\n\n    }\n\n    .chart-line {\n        padding-right: 10px;\n    }\n\n    body.nr-dashboard-theme md-sidenav {\n        background-color: #333333 !important;\n    }\n\n    .sw-bar {\n        margin-left: 10px;\n        width: 100%;\n        background-color: #878d96 !important;\n        border-radius: 20px !important\n    }\n\n    .inner-bar {\n        background-color: #f0f5ff;\n        border-radius: 10px !important\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 2010,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f1ba4e28a3f266d3",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "16f9a72941441ae1",
+        "name": "",
+        "topic": "b6610502218/project/sensors/temperature",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1600,
+        "y": 960,
+        "wires": [
+            [
+                "5d2c7d24e6bb64e9"
+            ]
+        ]
+    },
+    {
+        "id": "1b8a61b992040db1",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "ab3ec873359b67b3",
+        "name": "",
+        "topic": "b6610502218/project/sensors/humidity",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1590,
+        "y": 1060,
+        "wires": [
+            [
+                "eb94a54fc389074b"
+            ]
+        ]
+    },
+    {
+        "id": "907be34d0bc3217e",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "6762934ac9298e3c",
+        "name": "",
+        "topic": "b6610502218/project/sensors/air_quality",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1600,
+        "y": 1160,
+        "wires": [
+            [
+                "d95b19e037141b9d"
+            ]
+        ]
+    },
+    {
+        "id": "93ce3f817fe7efbd",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "81d707ef3c5bc4a7",
+        "name": "",
+        "topic": "b6610502218/project/sensors/uv",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1570,
+        "y": 1260,
+        "wires": [
+            [
+                "4cc9a925aef120fa",
+                "9e6375a5ba22dbaf"
+            ]
+        ]
+    },
+    {
+        "id": "93f7ade0b8c7f43c",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "701aab174cfea40d",
+        "name": "",
+        "topic": "b6610502218/project/sensors/light",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1580,
+        "y": 1420,
+        "wires": [
+            [
+                "2aacfb9f2871446e",
+                "321925aaf7558ced"
+            ]
+        ]
+    },
+    {
+        "id": "f97e2def49e0f132",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "16f9a72941441ae1",
+        "group": "3c36b032229b681f",
+        "name": "Temperature",
+        "order": 15,
+        "width": 8,
+        "height": 2,
+        "format": "<div style=\"margin-top:10px;\" class=\"ms-3\">\n    <h6 style=\"margin-left:10px\">Temperature</h6>\n    <div class=\"row align-items-center\">\n        <div class=\"col \">\n            <div class=\"progress sw-bar\">\n                <div id=\"bar-temperature\" class=\"progress-bar inner-bar\" role=\"progressbar\" style=\"width:{{msg.payload['percent']}}%\"\n                    aria-valuenow=\"{{msg.payload['value']}}\" aria-valuemin=\"0\" aria-valuemax=\"45\">\n                </div>\n            </div>\n        </div>\n        <div id=\"value-temperature\" class=\"col-3 justify-content-center ps-4\">{{msg.payload['value']}} °C</div>\n    </div>\n</div>\n\n<style>\n    #bar-temperature {\n        background-color: {{msg.payload['color']}} !important;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2110,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6a5d8c7735810303",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "e4c5c8417117b8c1",
+        "group": "3c36b032229b681f",
+        "name": "vr",
+        "order": 2,
+        "width": 1,
+        "height": 12,
+        "format": "<div class=\"d-flex justify-content-center pb-3\" style=\"height: 100%;\">\n    <div class=\"vr\"></div>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2310,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d2c7d24e6bb64e9",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "16f9a72941441ae1",
+        "name": "set color temperature",
+        "func": "const maxTemp = 45;\nconst data = msg.payload;\nconst percent = data / maxTemp * 100;\nlet color = env.get(\"GREEN\");\n\nif (data < 20) {\n    color = env.get(\"BLUE\");\n}\nelse if (data < 30) {\n    color = env.get(\"GREEN\");\n} else if (data < 35) {\n    color = env.get(\"YELLOW\");\n} else {\n    color = env.get(\"RED\");\n}\n\n// if (25 < data && data <= 35) {\n//     color = env.get(\"YELLOW\");\n// } else if (35 < data) {\n//     color = env.get(\"RED\");\n// }\nmsg.payload = {\n    \"value\": data,\n    \"percent\": percent,\n    \"color\": color\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1900,
+        "y": 960,
+        "wires": [
+            [
+                "f97e2def49e0f132"
+            ]
+        ]
+    },
+    {
+        "id": "eb94a54fc389074b",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "ab3ec873359b67b3",
+        "name": "set color humidity",
+        "func": "const maxTemp = 100;\nconst data = msg.payload;\nconst percent = data / maxTemp * 100;\nlet color = env.get(\"RED\");\n\nif ((60 <= percent && percent < 70) || (25 <= percent && percent < 30)) {\n    color = env.get(\"YELLOW\");\n} else if (30 <= percent && percent < 60) {\n    color = env.get(\"GREEN\");\n}\nmsg.payload = {\n    \"value\": data,\n    \"percent\" : percent,\n    \"color\": color\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1890,
+        "y": 1060,
+        "wires": [
+            [
+                "dae0f58ead3e36c2"
+            ]
+        ]
+    },
+    {
+        "id": "dae0f58ead3e36c2",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "ab3ec873359b67b3",
+        "group": "3c36b032229b681f",
+        "name": "Humidity",
+        "order": 14,
+        "width": 8,
+        "height": 2,
+        "format": "<div style=\"margin-top:10px;\" class=\"ms-3\">\n    <h6 style=\"margin-left:10px\">Humidity</h6>\n    <div class=\"row align-items-center\">\n        <div class=\"col \">\n            <div class=\"progress sw-bar\">\n                <div id=\"bar-humidity\" class=\"progress-bar inner-bar\" role=\"progressbar\" style=\"width:{{msg.payload['percent']}}%\"\n                    aria-valuenow=\"{{msg.payload['value']}}\" aria-valuemin=\"0\" aria-valuemax=\"100\">\n                </div>\n            </div>\n        </div>\n        <div id=\"value-humidity\" class=\"col-3 justify-content-center ps-4\">{{msg.payload['value']}} %</div>\n    </div>\n</div>\n\n<style>\n    #bar-humidity {\n        background-color: {{msg.payload['color']}} !important;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2120,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4739f78e09036575",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "021f590a1831f86f",
+        "group": "3c36b032229b681f",
+        "name": "AI Topic",
+        "order": 3,
+        "width": 9,
+        "height": 1,
+        "format": "<center class=\"ms-4\"><h4>ELEVATE-AI</h4></center>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2360,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2aacfb9f2871446e",
+        "type": "ui_gauge",
+        "z": "77ef0ab4df147d51",
+        "g": "701aab174cfea40d",
+        "name": "",
+        "group": "3c36b032229b681f",
+        "order": 13,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Light",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "10000",
+        "colors": [
+            "#befac2",
+            "#f9fabe",
+            "#fcd3ca"
+        ],
+        "seg1": "2000",
+        "seg2": "5000",
+        "diff": false,
+        "className": "",
+        "x": 2130,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "d95b19e037141b9d",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "6762934ac9298e3c",
+        "name": "set color air quality",
+        "func": "const maxTemp = 1000;\nconst data = msg.payload;\nconst percent = data / maxTemp * 100;\nlet color = env.get(\"GREEN\");\n\nif (data < 1000) {\n    color = env.get(\"GREEN\");\n} else if (data < 2000) {\n    color = env.get(\"YELLOW\");\n} else {\n    color = env.get(\"RED\");\n}\n// if (20 < percent && percent < 40) {\n//     color = env.get(\"YELLOW\");\n// } else if (40 <= percent) {\n//     color = env.get(\"RED\");\n// }\nmsg.payload = {\n    \"value\": data,\n    \"percent\" : percent,\n    \"color\": color\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1890,
+        "y": 1160,
+        "wires": [
+            [
+                "d5eaeef6afd0204b"
+            ]
+        ]
+    },
+    {
+        "id": "d5eaeef6afd0204b",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "6762934ac9298e3c",
+        "group": "3c36b032229b681f",
+        "name": "Air Quality",
+        "order": 17,
+        "width": 8,
+        "height": 2,
+        "format": "<div style=\"margin-top:10px;\" class=\"ms-3\">\n    <h6 style=\"margin-left:10px\">CO₂</h6>\n\n    <div class=\"row align-items-center\">\n        <div class=\"col \">\n            <div class=\"progress sw-bar\">\n                <div id=\"bar-air\" class=\"progress-bar inner-bar\" role=\"progressbar\" style=\"width:{{msg.payload['percent']}}%\"\n                    aria-valuenow=\"{{msg.payload['value']}}\" aria-valuemin=\"0\" aria-valuemax=\"100\">\n                </div>\n            </div>\n        </div>\n        <div id=\"value-air\" class=\"col-3 justify-content-center ps-4\">{{msg.payload['value']}} ppm</div>\n    </div>\n</div>\n\n<style>\n    #bar-air {\n        background-color: {{msg.payload['color']}} !important;\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2110,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "38536806cdf15b20",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "f08fe93b31292c8c",
+        "group": "3c36b032229b681f",
+        "name": "Sensors Topic",
+        "order": 1,
+        "width": 8,
+        "height": 1,
+        "format": "<center class=\"ms-4\"><h4>RealTime Data</h4></center>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1840,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8c3ba39b39d3bf5",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "2530fb60b749de78",
+        "group": "9c3ea0b452775fd8",
+        "name": "AI",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "format": "import { GoogleGenerativeAI, HarmBlockThreshold, HarmCategory } from \"https://esm.run/@google/generative-ai\";\n<script>\n    const API_KEY = \"\";\n</script>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 2130,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4cc9a925aef120fa",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "81d707ef3c5bc4a7",
+        "group": "3c36b032229b681f",
+        "name": "UV value",
+        "order": 8,
+        "width": 1,
+        "height": 1,
+        "format": "<div id=\"value-uv\" class=\"invisible\">{{msg.payload}}</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2120,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "321925aaf7558ced",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "701aab174cfea40d",
+        "group": "3c36b032229b681f",
+        "name": "Light value",
+        "order": 7,
+        "width": 1,
+        "height": 1,
+        "format": "<div id=\"value-light\" class=\"invisible\">{{msg.payload}}</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 2110,
+        "y": 1480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e6375a5ba22dbaf",
+        "type": "ui_gauge",
+        "z": "77ef0ab4df147d51",
+        "g": "81d707ef3c5bc4a7",
+        "name": "",
+        "group": "3c36b032229b681f",
+        "order": 12,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "UV Index",
+        "label": "",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "11",
+        "colors": [
+            "#befac2",
+            "#f9fabe",
+            "#fac8be"
+        ],
+        "seg1": "3",
+        "seg2": "7",
+        "diff": false,
+        "className": "",
+        "x": 2120,
+        "y": 1260,
+        "wires": []
+    },
+    {
+        "id": "2d4857b3e6e1264b",
+        "type": "ui_template",
+        "z": "77ef0ab4df147d51",
+        "g": "2530fb60b749de78",
+        "group": "6ed343fd2fc174c7",
+        "name": "Markdown",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "format": "<script type=\"module\" src=\"https://md-block.verou.me/md-block.js\"></script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "global",
+        "className": "",
+        "x": 1690,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "240572cf937b405a",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "78e314f6fe7f5038",
+        "name": "Auto Gemini",
+        "func": "const AI = googleGenerativeAi;\nconst GoogleGenerativeAI = AI.GoogleGenerativeAI;\nconst HarmCategory = AI.HarmCategory;\nconst HarmBlockThreshold = AI.HarmBlockThreshold;\n\nconst API_KEY = env.get(\"GEMINI_API_KEY\");\nconst genAI = new GoogleGenerativeAI(API_KEY);\nconst generationConfig = {\n    temperature: 0.5,\n    topP: 0.95,\n    topK: 16,\n};\nconst safetySettings = [\n    {\n        category: HarmCategory.HARM_CATEGORY_HARASSMENT,\n        threshold: HarmBlockThreshold.BLOCK_NONE,\n    },\n    {\n        category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,\n        threshold: HarmBlockThreshold.BLOCK_NONE,\n    },\n    {\n        category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,\n        threshold: HarmBlockThreshold.BLOCK_NONE,\n    },\n    {\n        category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,\n        threshold: HarmBlockThreshold.BLOCK_NONE,\n    }\n];\nconst model = genAI.getGenerativeModel({ model: \"gemini-pro\", generationConfig, safetySettings });\n\nconst textPrompt = `I want you to act as a healthcare bot. Do not respond with mark-up format. You must respond with plain text only with no \"*\" symbol. I am working at my desk and I want you to analyse environment for me. I will provide necessary data. You will summarize the given data and tell me if it good or bad to work in this environment. summarize it into topics whichin 200 characters. :\\n`;\n\nconst jsonData = msg.payload;\n\nconst MAX_CHAR = env.get(\"OLED_MAX_CHAR_PER_LINE\");\n\nasync function autoAI() {\n\n    const temperature = jsonData[\"temperature\"];\n    const humidity = jsonData[\"humidity\"];\n    const airQuality = jsonData[\"airQuality\"];\n    const uv = jsonData[\"uv\"];\n    const light = jsonData[\"light\"];\n\n    let respond = \"\";\n\n    let aiInput = textPrompt + \" Current time is \" + (new Date().toLocaleString()) + \". temperature \" + temperature + \" °C , humidity \" + humidity + \"% , uv index \" + uv + \" light level \" + light + \" lux , CO2 level is \" + airQuality + \" ppm\";\n\n\n    // Generate respond\n    try {\n        const result = await model.generateContent(aiInput);\n        const response = await result.response;\n        respond = response.text();\n        node.log(respond);\n    } catch (error) {\n        respond = \"Error generating respond: \";\n        node.warn(\"Error generating respond: \" + error);\n    }\n    // respond = respond.replaceAll(\"<br>\", \"\\n\");\n    // respond = respond.replaceAll(\"**\", \"\");\n    // respond = respond.replaceAll(\"°\", \"\");\n\n    // let textArray = respond.split(\"\\n\")\n    let outputText = respond;\n    // let outputText = \"\";\n    // for (const line of textArray) {\n\n    //     // Slice to 21 characters\n    //     if (line.length > MAX_CHAR) {\n    //         const format = \"/.{1,\" + MAX_CHAR + \"}/g\"\n    //         let resultArray = line.match(format) ?? [];\n    //         // console.log(resultArray);\n    //         // fill last to 21\n    //         for (const eachNewLine of resultArray) {\n    //             outputText += eachNewLine.padEnd(MAX_CHAR, \" \")\n    //         }\n    //     } else {\n    //         outputText += line.padEnd(MAX_CHAR, \" \");\n    //     }\n    // }\n\n    node.send({ \"payload\": outputText, \"role\": \"model\" });\n\n}\n\nautoAI()",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "googleGenerativeAi",
+                "module": "@google/generative-ai"
+            }
+        ],
+        "x": 1950,
+        "y": 600,
+        "wires": [
+            [
+                "38575beb670524ca"
+            ]
+        ]
+    },
+    {
+        "id": "8aa2eedd82f4de31",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "78e314f6fe7f5038",
+        "name": "",
+        "topic": "b6610502218/project/sensors/json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1560,
+        "y": 600,
+        "wires": [
+            [
+                "ada5634dd192ab49"
+            ]
+        ]
+    },
+    {
+        "id": "d4cd02be15fa7ca5",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "g": "78e314f6fe7f5038",
+        "name": "",
+        "topic": "b6610502218/project/ai/auto",
+        "qos": "2",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 2340,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "ada5634dd192ab49",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "78e314f6fe7f5038",
+        "name": "Timer",
+        "func": "const d = new Date();\nlet currentTime = d.getTime();\nlet currentSecond = d.getSeconds();\n\nlet min = 5;\nlet sec = min * 60;\nlet mil = sec * 1000;\n\nlet lastInput = context.get(\"Timer\") || 0;\nif (currentTime - lastInput >= mil) {\n    context.set(\"Timer\", d.getTime());\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1790,
+        "y": 600,
+        "wires": [
+            [
+                "240572cf937b405a"
+            ]
+        ]
+    },
+    {
+        "id": "38575beb670524ca",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "78e314f6fe7f5038",
+        "name": "Format",
+        "func": "let respond = msg.payload;\nconst MAX_CHAR = env.get(\"OLED_MAX_CHAR_PER_LINE\");\n\nrespond = respond.replaceAll(\"<br>\", \"\\n\");\nrespond = respond.replaceAll(\"**\", \"\");\nrespond = respond.replaceAll(\"*\", \"-\");\nrespond = respond.replaceAll(\"°\", \"\");\n\nlet textArray = respond.split(\"\\n\")\nlet outputText = \"\";\nfor (const line of textArray) {\n\n    // Slice to 21 characters\n    if (line.length > MAX_CHAR) {\n        const format = new RegExp((\".{1,\" + MAX_CHAR + \"}\"), \"g\");\n        let resultArray = line.match(format) ?? [];\n        // console.log(resultArray);\n        // fill last to 21\n        for (const eachNewLine of resultArray) {\n            outputText += eachNewLine.padEnd(MAX_CHAR, \" \")\n        }\n    } else {\n        outputText += line.padEnd(MAX_CHAR, \" \");\n    }\n}\n\nmsg.payload  = outputText;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2120,
+        "y": 600,
+        "wires": [
+            [
+                "d4cd02be15fa7ca5"
+            ]
+        ]
+    },
+    {
+        "id": "3b8df544e05fd1b8",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "",
+        "topic": "b6610502218/project/sensors/json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1560,
+        "y": 200,
+        "wires": [
+            [
+                "708824453dc65e5e"
+            ]
+        ]
+    },
+    {
+        "id": "2ca38e3c295a751a",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "Get temperature",
+        "func": "let temp = msg.payload;\nmsg.payload = temp[\"temperature\"];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1880,
+        "y": 80,
+        "wires": [
+            [
+                "0ed8b7af831ce6fa"
+            ]
+        ]
+    },
+    {
+        "id": "98dbace1414e36c7",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "Get humidity",
+        "func": "let temp = msg.payload;\nmsg.payload = temp[\"humidity\"]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1870,
+        "y": 140,
+        "wires": [
+            [
+                "965380f036617419"
+            ]
+        ]
+    },
+    {
+        "id": "34837b2a20a04d98",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "Get air quality",
+        "func": "let temp = msg.payload;\nmsg.payload = temp[\"airQuality\"]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1880,
+        "y": 200,
+        "wires": [
+            [
+                "03754de85fac3d2d"
+            ]
+        ]
+    },
+    {
+        "id": "bab66f55426e87b1",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "Get uv",
+        "func": "let temp = msg.payload;\nmsg.payload = temp[\"uv\"]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 260,
+        "wires": [
+            [
+                "7a7a3ccbc2728f7f"
+            ]
+        ]
+    },
+    {
+        "id": "eb855c1b92dfa3d5",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "Get light",
+        "func": "let temp = msg.payload;\nmsg.payload = temp[\"light\"]\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1860,
+        "y": 320,
+        "wires": [
+            [
+                "2f8ca530398d145d"
+            ]
+        ]
+    },
+    {
+        "id": "0ed8b7af831ce6fa",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "",
+        "topic": "b6610502218/project/sensors/temperature",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 2150,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "965380f036617419",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "",
+        "topic": "b6610502218/project/sensors/humidity",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 2140,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "03754de85fac3d2d",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "",
+        "topic": "b6610502218/project/sensors/air_quality",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 2140,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "7a7a3ccbc2728f7f",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "",
+        "topic": "b6610502218/project/sensors/uv",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 2120,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "2f8ca530398d145d",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "g": "2e64af33d0792486",
+        "name": "",
+        "topic": "b6610502218/project/sensors/light",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 2120,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "d0248d85d59ba73d",
+        "type": "inject",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "2b0b6eaeb7080939",
+        "name": "100",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "{\"max\": 100, \"add\": 5}",
+        "payloadType": "json",
+        "x": 3010,
+        "y": 760,
+        "wires": [
+            [
+                "18dc5774a0171c10"
+            ]
+        ]
+    },
+    {
+        "id": "18dc5774a0171c10",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "2b0b6eaeb7080939",
+        "name": "counter",
+        "func": "let counter = context.get(\"counter\") || 0;\ncounter = counter < msg.payload[\"max\"] ? counter + msg.payload[\"add\"] : 3;\nmsg.payload = counter;\ncontext.set(\"counter\", counter);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3160,
+        "y": 760,
+        "wires": [
+            [
+                "0ddf41770764b1ed"
+            ]
+        ]
+    },
+    {
+        "id": "97425fc2839e1401",
+        "type": "inject",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "5fbbbf24b08deb06",
+        "name": "1000",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "{\"max\": 1000, \"add\": 100}",
+        "payloadType": "json",
+        "x": 3010,
+        "y": 860,
+        "wires": [
+            [
+                "191d84fcfe5b4d52"
+            ]
+        ]
+    },
+    {
+        "id": "191d84fcfe5b4d52",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "5fbbbf24b08deb06",
+        "name": "counter",
+        "func": "let counter = context.get(\"counter\") || 0;\ncounter = counter < msg.payload[\"max\"] ? counter + msg.payload[\"add\"] : 0;\nmsg.payload = counter;\ncontext.set(\"counter\", counter);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3160,
+        "y": 860,
+        "wires": [
+            [
+                "ed5880cdce19ef83"
+            ]
+        ]
+    },
+    {
+        "id": "5c29ed340ebf9da3",
+        "type": "debug",
+        "z": "77ef0ab4df147d51",
+        "g": "ad66465af46f0649",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3340,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "e0a61dfa9e4cb344",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "ad66465af46f0649",
+        "name": "",
+        "topic": "b6610502218/project/ai/auto",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 3080,
+        "y": 1080,
+        "wires": [
+            [
+                "5c29ed340ebf9da3"
+            ]
+        ]
+    },
+    {
+        "id": "739ae3a9bb34baf8",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "dfad17ba36917b36",
+        "name": "",
+        "topic": "b6610502218/project/sensors/light",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 3540,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "fa6cedf2da832366",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "dfad17ba36917b36",
+        "name": "",
+        "topic": "b6610502218/project/sensors/temperature",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 3570,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "9bb680071bab45f0",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "dfad17ba36917b36",
+        "name": "",
+        "topic": "b6610502218/project/sensors/humidity",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 3560,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "e79bede77b90263e",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "dfad17ba36917b36",
+        "name": "",
+        "topic": "b6610502218/project/sensors/air_quality",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 3560,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "712456ebf6029e88",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "dfad17ba36917b36",
+        "name": "",
+        "topic": "b6610502218/project/sensors/uv",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 3540,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "c224822fc1ccad57",
+        "type": "inject",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "ce0a15dba664e79d",
+        "name": "1",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "2",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "{\"max\": 10, \"add\": 1}",
+        "payloadType": "json",
+        "x": 3010,
+        "y": 660,
+        "wires": [
+            [
+                "13278379c41cd7a8"
+            ]
+        ]
+    },
+    {
+        "id": "13278379c41cd7a8",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "ce0a15dba664e79d",
+        "name": "counter",
+        "func": "let counter = context.get(\"counter\") || 0;\ncounter = counter < msg.payload[\"max\"] ? counter + msg.payload[\"add\"] : 0;\nmsg.payload = counter;\ncontext.set(\"counter\", counter);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 3160,
+        "y": 660,
+        "wires": [
+            [
+                "4ef18ef76e26e84e"
+            ]
+        ]
+    },
+    {
+        "id": "0f70c69539a0d9f2",
+        "type": "inject",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "2d231976ebd8680a",
+        "name": "Example json",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{   \"temperature\": \"25\",   \"humidity\": \"70\",   \"airQuality\": \"400 ppm\",   \"uv\": \"8\",   \"light\": \"800 lx\" }",
+        "payloadType": "str",
+        "x": 3030,
+        "y": 980,
+        "wires": [
+            [
+                "12d0a855be13e75c"
+            ]
+        ]
+    },
+    {
+        "id": "12d0a855be13e75c",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "d": true,
+        "g": "2d231976ebd8680a",
+        "name": "",
+        "topic": "b6610502218/project/sensors/json",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 3540,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "f8b947665e87ef7e",
+        "type": "debug",
+        "z": "77ef0ab4df147d51",
+        "g": "46ce83dc7d2ba8e0",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3340,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "2540f800a4738905",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "46ce83dc7d2ba8e0",
+        "name": "",
+        "topic": "b6610502218/project/debug/data",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 3100,
+        "y": 1180,
+        "wires": [
+            [
+                "f8b947665e87ef7e"
+            ]
+        ]
+    },
+    {
+        "id": "83dec60304a2bd77",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "d38920fcd3f60759",
+        "name": "",
+        "topic": "b6610502218/project/sensors/json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 3100,
+        "y": 1280,
+        "wires": [
+            [
+                "8e0ad6d6970aba93"
+            ]
+        ]
+    },
+    {
+        "id": "8e0ad6d6970aba93",
+        "type": "debug",
+        "z": "77ef0ab4df147d51",
+        "g": "d38920fcd3f60759",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3360,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "73c1858e5b36358a",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "becdb38eda029aa1",
+        "name": "",
+        "topic": "b6610502218/project/sensors/json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1560,
+        "y": 420,
+        "wires": [
+            [
+                "fed92d292909066f"
+            ]
+        ]
+    },
+    {
+        "id": "af581e8817914f51",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "becdb38eda029aa1",
+        "name": "",
+        "topic": "b6610502218/project/sitting/json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1570,
+        "y": 500,
+        "wires": [
+            [
+                "fed92d292909066f"
+            ]
+        ]
+    },
+    {
+        "id": "fed92d292909066f",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "becdb38eda029aa1",
+        "name": "Wait for all tasks to finish",
+        "func": "// let data = context.get(\"data\") || new Object();\n\nswitch (msg.topic) {\n    case \"b6610502218/project/sensors/json\":\n        context.set(\"sensors\", msg.payload);\n        break;\n    case \"b6610502218/project/sitting/json\":\n        context.set(\"sitting\", msg.payload);\n        break;\n    default:\n        msg = null;\n        break;\n\n}\n\nlet sensors = context.get(\"sensors\");\nlet sitting = context.get(\"sitting\");\n\nif (sensors != null && sitting != null) {\n    msg.payload = {...sensors, ...sitting};\n    context.set(\"sensors\", null);\n    context.set(\"sitting\", null);\n    return msg;\n} else {\n    msg = null;\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1850,
+        "y": 460,
+        "wires": [
+            [
+                "5ca30108a7e08932"
+            ]
+        ]
+    },
+    {
+        "id": "5ca30108a7e08932",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "g": "becdb38eda029aa1",
+        "name": "",
+        "topic": "b6610502218/project/all_json",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 2130,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a15cf2ce49aeb531",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "0d174dec4391d5a6",
+        "name": "",
+        "topic": "b6610502218/project/all_json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 3080,
+        "y": 1500,
+        "wires": [
+            [
+                "24ab205efe29968f"
+            ]
+        ]
+    },
+    {
+        "id": "24ab205efe29968f",
+        "type": "debug",
+        "z": "77ef0ab4df147d51",
+        "g": "0d174dec4391d5a6",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3360,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "09b27826665c6195",
+        "type": "mqtt in",
+        "z": "77ef0ab4df147d51",
+        "g": "b459f46dd52d616c",
+        "name": "",
+        "topic": "b6610502218/project/sitting/json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 3090,
+        "y": 1380,
+        "wires": [
+            [
+                "6d2cd68c857a506d"
+            ]
+        ]
+    },
+    {
+        "id": "6d2cd68c857a506d",
+        "type": "debug",
+        "z": "77ef0ab4df147d51",
+        "g": "b459f46dd52d616c",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 3360,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "07c31c1e02a95db7",
+        "type": "inject",
+        "z": "77ef0ab4df147d51",
+        "g": "c198f7553ba4a7ba",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 2730,
+        "y": 240,
+        "wires": [
+            [
+                "41f74f5fdc6961fa"
+            ]
+        ]
+    },
+    {
+        "id": "471a68afa65bd17b",
+        "type": "mqtt out",
+        "z": "77ef0ab4df147d51",
+        "g": "c198f7553ba4a7ba",
+        "name": "",
+        "topic": "b6610502218/project/time",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 3160,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "41f74f5fdc6961fa",
+        "type": "function",
+        "z": "77ef0ab4df147d51",
+        "g": "c198f7553ba4a7ba",
+        "name": "Get current time",
+        "func": "msg.payload = Math.floor(Date.now() / 1000);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2920,
+        "y": 240,
+        "wires": [
+            [
+                "471a68afa65bd17b"
+            ]
+        ]
+    },
+    {
+        "id": "7508c9906252c9d3",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "5c2cc5b72c12b327",
+        "name": "Discord Gemini",
+        "func": "const AI = googleGenerativeAi;\nconst GoogleGenerativeAI = AI.GoogleGenerativeAI;\nconst HarmCategory = AI.HarmCategory;\nconst HarmBlockThreshold = AI.HarmBlockThreshold;\n\nconst API_KEY = env.get(\"GEMINI_API_KEY\");\nconst genAI = new GoogleGenerativeAI(API_KEY);\nconst generationConfig = {\n    temperature: 0.7,\n    topP: 0.95,\n    topK: 16,\n};\nconst safetySettings = [\n    {\n        category: HarmCategory.HARM_CATEGORY_HARASSMENT,\n        threshold: HarmBlockThreshold.BLOCK_NONE,\n    },\n    {\n        category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,\n        threshold: HarmBlockThreshold.BLOCK_NONE,\n    },\n    {\n        category: HarmCategory.HARM_CATEGORY_SEXUALLY_EXPLICIT,\n        threshold: HarmBlockThreshold.BLOCK_NONE,\n    },\n    {\n        category: HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT,\n        threshold: HarmBlockThreshold.BLOCK_NONE,\n    }\n];\nconst model = genAI.getGenerativeModel({ model: \"gemini-pro\", generationConfig, safetySettings });\n\n\nasync function discordAi(prompt) {\n\n    let respond = \"\";\n\n    // Generate respond\n    try {\n        const result = await model.generateContent(prompt);\n        const response = await result.response;\n        respond = response.text();\n        node.log(respond);\n    } catch (error) {\n        respond = \"Error\";\n        node.warn(\"Error generating respond: \" + error);\n    }\n\n    let outputText = respond;\n\n    node.send({ \"payload\": outputText, \"role\": \"model\" });\n\n}\n\n// const discordPrompt = `I want you to act as a friendly Health-care Discord bot.You must respond in markdowm formst. I has been working at my desk all day, which lead to office syndrome. I will provide some evironment data. You will use that data convince me to take a break and go do something else. the given if it good or bad. respond should be whichin 300 characters. `;\n\n// const jsonData = msg.payload;\n\n// const temperature = jsonData[\"temperature\"];\n// const humidity = jsonData[\"humidity\"];\n// const airQuality = jsonData[\"airQuality\"];\n// const uv = jsonData[\"uv\"];\n// const light = jsonData[\"light\"];\n// const isSitting = jsonData[\"isSitting\"]\n// const sittingStart = jsonData[\"sittingStart\"]\n// const sittingDistance = jsonData[\"sittingDistance\"]\n// const currentDistance = jsonData[\"currentDistance\"]\n\n// let aiPrompt = discordPrompt;\n// aiPrompt += \" Current time is \" + (new Date().toLocaleString()) + \"CO₂ level is \" + airQuality;\n\nconst aiPrompt = msg.payload;\nlet discordRun = global.get(\"discordRun\");\nif (discordRun) {\n    discordAi(aiPrompt);\n} else {\n    node.warn(\"discordRun is false\")\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [
+            {
+                "var": "googleGenerativeAi",
+                "module": "@google/generative-ai"
+            }
+        ],
+        "x": 1960,
+        "y": 1320,
+        "wires": [
+            [
+                "4e998b4c9a8b25e6"
+            ]
+        ]
+    },
+    {
+        "id": "34839dfc2bd03b68",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "33b7d708553a6d6e",
+        "name": "Channel id",
+        "func": "msg.channel = env.get(\"CHANNEL_ID\");\nreturn msg",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2370,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "842f3aa79eff317f",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "d60525def47a8beb",
+        "name": "Timer",
+        "func": "const d = new Date();\nlet currentTime = d.getTime();\nlet currentSecond = d.getSeconds();\n\nlet isSitting = (msg.payload[\"isSitting\"] == 0) ? false : true;\nlet sittingStart = parseInt(msg.payload[\"sittingStart\"]);\n\nlet min = global.get(\"timerLenght\") || 45;\nlet sec = min * 60;\nlet mil = sec * 1000;\n\nlet lastInput = global.get(\"Timer\") || 0;\n\nif ((!(global.get(\"remind\"))) || (sittingStart < 2) || ((currentTime - lastInput >= mil) && (!isSitting))) {\n    lastInput = currentTime;\n    global.set(\"Timer\", currentTime);\n    node.warn(\"Reset start time\")\n    return null;\n}\n\n\nif ((currentTime - lastInput >= mil) && (global.get(\"remind\"))) {\n    global.set(\"haveTostand\", true);\n    global.set(\"isWorking\", true);\n    global.set(\"Timer\", currentTime);\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 1120,
+        "wires": [
+            [
+                "5838da3a784eb238",
+                "8eda1b7893b1e47c"
+            ]
+        ]
+    },
+    {
+        "id": "a7a7c7fb7fd8b305",
+        "type": "mqtt in",
+        "z": "cddd8c4e20d2a075",
+        "g": "d60525def47a8beb",
+        "name": "",
+        "topic": "b6610502218/project/all_json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 980,
+        "y": 1120,
+        "wires": [
+            [
+                "842f3aa79eff317f"
+            ]
+        ]
+    },
+    {
+        "id": "5838da3a784eb238",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "d60525def47a8beb",
+        "name": "Set prompt",
+        "func": "function timeConverter(UNIX_timestamp) {\n    var a = new Date(UNIX_timestamp * 1000);\n    var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];\n    var year = a.getFullYear();\n    var month = months[a.getMonth()];\n    var date = a.getDate();\n    var hour = a.getHours();\n    var min = a.getMinutes();\n    var sec = a.getSeconds();\n    var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min;\n    return time;\n}\n\nconst discordPrompt = `I want you to act as a friendly Healthcare Discord bot.You must respond in markdowm formst. I has been working at my desk all day, which lead to office syndrome. I will provide some evironment data. You will use that data convince me to take a break and go do something else. You will say hi to me with big text style, then start new line that tell me what time I started sitting or working at my deck, or how long I have been doing that. Use emoji for more friendly tone.:\\n`;\n\nconst jsonData = msg.payload;\n\nconst temperature = parseFloat(jsonData[\"temperature\"]);\nconst humidity = parseFloat(jsonData[\"humidity\"]);\nconst airQuality = parseInt(jsonData[\"airQuality\"]);\nconst uv = parseInt(jsonData[\"uv\"]);\nconst light = parseInt(jsonData[\"light\"]);\nconst isSitting = (jsonData[\"isSitting\"] == \"0\" ? true : false);\nconst sittingStart = parseInt(jsonData[\"sittingStart\"]);\nconst sittingDistance = parseFloat(jsonData[\"sittingDistance\"]);\nconst currentDistance = parseFloat(jsonData[\"currentDistance\"]);\n\nlet aiPrompt = discordPrompt;\n\n// aiPrompt += \" All respond must be in Thai language only.: \\n\"\n\nconst nowSec = Date.now() / 1000;\n\naiPrompt += \"Current time is \" + timeConverter(nowSec) + \" I have been sitting since \" + timeConverter(sittingStart)+ \" which is \" + Math.floor((nowSec - sittingStart) / 60) + \"minutes. \" + \" CO₂ level is \" + airQuality + \"ppm.\";\n\n\nmsg.payload = aiPrompt ;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1630,
+        "y": 1120,
+        "wires": [
+            [
+                "15c1ecc1d2de5e6f"
+            ]
+        ]
+    },
+    {
+        "id": "adb7f926934a950b",
+        "type": "mqtt in",
+        "z": "cddd8c4e20d2a075",
+        "g": "986b8ec025e525b8",
+        "name": "",
+        "topic": "b6610502218/project/all_json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 980,
+        "y": 1380,
+        "wires": [
+            [
+                "78612e454ddc28cf",
+                "60532d78d9946c3c"
+            ]
+        ]
+    },
+    {
+        "id": "78612e454ddc28cf",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "ea641d4738257dc2",
+        "name": "Sent compliment if stand",
+        "func": "let isSitting = (msg.payload[\"isSitting\"] == 0) ? false : true;\nlet haveTostand = global.get(\"haveTostand\") || false;\nif (haveTostand) {\n    if (!isSitting) {\n        global.set(\"haveTostand\", false);\n        global.set(\"remind\", false);\n        global.set(\"isWorking\", false);\n        return msg;\n    }\n}\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 1320,
+        "wires": [
+            [
+                "670662d63a835067",
+                "c1e16a1168979c0f"
+            ]
+        ]
+    },
+    {
+        "id": "670662d63a835067",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "ea641d4738257dc2",
+        "name": "Set prompt",
+        "func": "const discordPrompt = `I want you to act as a friendly Healthcare Discord bot.You must respond in markdown formst. I has been working at my desk all day, which lead to office syndrome. Earlier, you had convinced me to take a break and go do something else and I did. You will say something to me as a compliment with big text style and then some more compliment. Use emoji for more friendly tone.\\n`;\n\n\nlet aiPrompt = discordPrompt;\n\n// aiPrompt += \" All respond must be in Thai language only. \\n\"\n\n// aiPrompt += \" ...Remember, you must respond in Thai only and use emoji for more frindly tone.\";\n\nmsg.payload = aiPrompt ;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 1320,
+        "wires": [
+            [
+                "15c1ecc1d2de5e6f"
+            ]
+        ]
+    },
+    {
+        "id": "60532d78d9946c3c",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "e860c3bbef91309c",
+        "name": "Sent welcome when back to work",
+        "func": "const d = new Date();\n\nlet isSitting = (msg.payload[\"isSitting\"] == 0) ? false : true;\nlet isWorking = global.get(\"isWorking\");\nif (!isWorking) {\n    if (isSitting) {\n        global.set(\"isWorking\", true);\n        context.set(\"Timer\", d.getTime());\n        global.set(\"remind\", true);\n        return msg;\n    }\n}\nreturn null",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 1500,
+        "wires": [
+            [
+                "7526f4353c442d31",
+                "211a38681e4df99b"
+            ]
+        ]
+    },
+    {
+        "id": "7526f4353c442d31",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "e860c3bbef91309c",
+        "name": "Set prompt",
+        "func": "const jsonData = msg.payload;\n\nconst temperature = parseFloat(jsonData[\"temperature\"]);\nconst humidity = parseFloat(jsonData[\"humidity\"]);\nconst airQuality = parseInt(jsonData[\"airQuality\"]);\nconst uv = parseInt(jsonData[\"uv\"]);\nconst light = parseInt(jsonData[\"light\"]);\nconst isSitting = (jsonData[\"isSitting\"] == \"0\" ? true : false);\nconst sittingStart = parseInt(jsonData[\"sittingStart\"]);\nconst sittingDistance = parseFloat(jsonData[\"sittingDistance\"]);\nconst currentDistance = parseFloat(jsonData[\"currentDistance\"]);\n\nconst discordPrompt = `I want you to act as a friendly Healthcare Discord bot.You must respond in markdown formst. I has been working at my desk all day, which lead to office syndrome. Earlier, I took a break and go do something else as you told me to, and now I am back. You will say something to me as a welcome sentence with big text style and then some more cheering.\\n`;\n\n\nlet aiPrompt = discordPrompt + \"After saying welcome sentence, analyse these working environment data and review it to me :\\n\";\n\naiPrompt += \"Temperature \" + temperature + \" °C , Humidity \" + humidity + \"% , UV index \" + uv + \" Light level \" + light + \" lux , CO₂ level is \" + airQuality + \" ppm\\n\";\naiPrompt += \"Use emoji for more friendly tone.\"\n\n// aiPrompt += \" All respond must be in Thai language only. \\n\"\n\n// aiPrompt += \" ...Remember, you must respond in Thai only and use emoji for more frindly tone.\";\n\nmsg.payload = aiPrompt ;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1610,
+        "y": 1500,
+        "wires": [
+            [
+                "15c1ecc1d2de5e6f"
+            ]
+        ]
+    },
+    {
+        "id": "0dd9a874e08fb1d2",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "6f8833e16bc658d8",
+        "name": "React",
+        "func": "msg.action = 'react';\nlet emoji = [\"😁\", \"😊\", \"😄\", \"😸\", \"😺\", \"👍\", \"❤️\"]\nemoji = emoji[(Math.floor(Math.random() * emoji.length))]\nmsg.payload = emoji;\nmsg.message = msg.data.id; // if the messages comes from discordMessage\nmsg.channel = msg.channel.id \nreturn msg",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1430,
+        "y": 2040,
+        "wires": [
+            [
+                "94fbc7b0a4c20980"
+            ]
+        ]
+    },
+    {
+        "id": "b3e77028123c6d31",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "6f8833e16bc658d8",
+        "name": "Filter command Input",
+        "func": "if ((msg.payload.startsWith(\"!\")) && msg.payload != \"!\") {\n    return msg;\n}\nreturn null\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1160,
+        "y": 2040,
+        "wires": [
+            [
+                "0dd9a874e08fb1d2",
+                "ddb7ed5b2128183a"
+            ]
+        ]
+    },
+    {
+        "id": "ddb7ed5b2128183a",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "6f8833e16bc658d8",
+        "name": "Run command",
+        "func": "function timeConverter(UNIX_timestamp) {\n    var a = new Date(UNIX_timestamp * 1000);\n    var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];\n    var year = a.getFullYear();\n    var month = months[a.getMonth()];\n    var date = a.getDate();\n    var hour = a.getHours();\n    var min = a.getMinutes();\n    var sec = a.getSeconds();\n    var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min;\n    return time;\n}\n\nconst invalidCmText = \"Invalid command input\";\nlet userText = msg.payload;\nlet textArray = userText.split(\" \");\n\nif (textArray[0] == \"!settimer\") {\n    let timerLenght = textArray[1];\n    if (isNaN(timerLenght)) {\n        msg.payload = invalidCmText\n    } else {\n        timerLenght = parseInt(timerLenght);\n        if(timerLenght == 0) {\n            timerLenght = 60;\n        }\n\n        global.set(\"timerLenght\", timerLenght);\n        msg.payload = \"OK! Set new timer duration to \" + timerLenght + \" minute\"\n        if (timerLenght > 1) {\n            msg.payload += \"s\"\n        }\n        if (timerLenght == 60) {\n            msg.payload += \" (Default)\"\n        }\n    }\n} \nelse if (textArray[0] == \"!off\") {\n    global.set(\"discordRun\", false);\n    msg.payload = \"OK! reminder has been turn off.\"\n} \nelse if (textArray[0] == \"!on\") {\n    global.set(\"discordRun\", true);\n    msg.payload = \"OK! I'm ready!\"\n} \nelse if (textArray[0] == \"!status\") {\n    let discordRun = global.get(\"discordRun\");\n    let lenght = global.get(\"timerLenght\") || \"unknow\";\n    msg.payload = \"Reminder is \";\n    msg.payload += (discordRun) ? \"on with \" + lenght + \"m timer duration\" : \"off.\"\n} else if (textArray[0] == \"!remain\") {\n    let current = Date.now()\n    let last = global.get(\"Timer\");\n    let lenght = global.get(\"timerLenght\");\n\n    let remain = Math.ceil(lenght - ((current - last) / (1000*60)));\n    msg.payload = ((current - last) / (1000 * 60)) + \"m past \" + remain + \"m left\";\n    // msg.payload += \" reminder: \" + global.get(\"remind\") + \" last: \" + timeConverter(last/1000);\n    \n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1400,
+        "y": 2140,
+        "wires": [
+            [
+                "94fbc7b0a4c20980"
+            ]
+        ]
+    },
+    {
+        "id": "e7abd1a55812805f",
+        "type": "inject",
+        "z": "cddd8c4e20d2a075",
+        "g": "60591a1d05f3e331",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"sittingStart\":\"1\"}",
+        "payloadType": "json",
+        "x": 950,
+        "y": 1720,
+        "wires": [
+            [
+                "8700b6381a30e5d1"
+            ]
+        ]
+    },
+    {
+        "id": "ccf16abcf56ff85d",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "60591a1d05f3e331",
+        "name": "Reset node parameter",
+        "func": "const d = new Date();\nlet already = context.get(\"already\");\nlet sittingStart = parseInt(msg.payload[\"sittingStart\"]);\n\nif (global.get(\"timerLenght\") == null) {\n    global.set(\"timerLenght\", 60);\n}\n\nif ((sittingStart <= 2) && (!already)) {\n// if ((sittingStart <= 2)) {\n    global.set(\"isWorking\", false);\n    global.set(\"haveTostand\", false);\n    global.set(\"remind\", false);\n    global.set(\"Timer\", d.getTime());\n    node.warn(\"Reset discord parameter\")\n    context.set(\"already\", true);\n    msg.payload = \"reset\"\n    return msg;\n} else if (sittingStart > 2) {\n    context.set(\"already\", false);\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 1720,
+        "wires": [
+            [
+                "0a430662c86fa0c3"
+            ]
+        ]
+    },
+    {
+        "id": "c1e16a1168979c0f",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "ea641d4738257dc2",
+        "name": "Reset sensor",
+        "func": "msg.payload = \"reset\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 1380,
+        "wires": [
+            [
+                "f2d9a253e01c9efc"
+            ]
+        ]
+    },
+    {
+        "id": "f2d9a253e01c9efc",
+        "type": "mqtt out",
+        "z": "cddd8c4e20d2a075",
+        "g": "ea641d4738257dc2",
+        "name": "",
+        "topic": "b6610502218/project/sitting/reset",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 1580,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "913bb6fdaa4173bd",
+        "type": "mqtt in",
+        "z": "cddd8c4e20d2a075",
+        "g": "60591a1d05f3e331",
+        "name": "",
+        "topic": "b6610502218/project/all_json",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 980,
+        "y": 1760,
+        "wires": [
+            [
+                "ccf16abcf56ff85d"
+            ]
+        ]
+    },
+    {
+        "id": "8700b6381a30e5d1",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "60591a1d05f3e331",
+        "name": "Force",
+        "func": "context.set(\"already\", false);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1170,
+        "y": 1720,
+        "wires": [
+            [
+                "ccf16abcf56ff85d"
+            ]
+        ]
+    },
+    {
+        "id": "211a38681e4df99b",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "e860c3bbef91309c",
+        "name": "start sensor",
+        "func": "msg.payload = \"continue\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 1560,
+        "wires": [
+            [
+                "d1c52f7360b08053"
+            ]
+        ]
+    },
+    {
+        "id": "d1c52f7360b08053",
+        "type": "mqtt out",
+        "z": "cddd8c4e20d2a075",
+        "g": "e860c3bbef91309c",
+        "name": "",
+        "topic": "b6610502218/project/sitting/reset",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 1560,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "a9c0cea40fe88922",
+        "type": "mqtt out",
+        "z": "cddd8c4e20d2a075",
+        "g": "60591a1d05f3e331",
+        "name": "",
+        "topic": "b6610502218/project/sitting/reset",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 1780,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "0a430662c86fa0c3",
+        "type": "delay",
+        "z": "cddd8c4e20d2a075",
+        "g": "60591a1d05f3e331",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1560,
+        "y": 1720,
+        "wires": [
+            [
+                "a9c0cea40fe88922"
+            ]
+        ]
+    },
+    {
+        "id": "6b220ed388cf716f",
+        "type": "mqtt out",
+        "z": "cddd8c4e20d2a075",
+        "g": "a9847fe830e85e9f",
+        "name": "",
+        "topic": "b6610502218/project/sitting/reset",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 1640,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "2b6ad3a6b5d5f955",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "a9847fe830e85e9f",
+        "name": "if restart",
+        "func": "if (msg.payload == \"restarted\") {\n    msg.payload = \"calibate\";\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 1880,
+        "wires": [
+            [
+                "8e5b4da44fdcb28b"
+            ]
+        ]
+    },
+    {
+        "id": "deaf33e252f9e8c2",
+        "type": "mqtt in",
+        "z": "cddd8c4e20d2a075",
+        "g": "a9847fe830e85e9f",
+        "name": "",
+        "topic": "b6610502218/project/sitting/reset",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 980,
+        "y": 1880,
+        "wires": [
+            [
+                "2b6ad3a6b5d5f955"
+            ]
+        ]
+    },
+    {
+        "id": "8e5b4da44fdcb28b",
+        "type": "delay",
+        "z": "cddd8c4e20d2a075",
+        "g": "a9847fe830e85e9f",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "7",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1380,
+        "y": 1880,
+        "wires": [
+            [
+                "6b220ed388cf716f"
+            ]
+        ]
+    },
+    {
+        "id": "fdf0b8376ef2d59e",
+        "type": "debug",
+        "z": "cddd8c4e20d2a075",
+        "name": "Discord input",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 2160,
+        "wires": []
+    },
+    {
+        "id": "8eda1b7893b1e47c",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "d60525def47a8beb",
+        "name": "force stand page",
+        "func": "msg.payload = \"stand\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 1180,
+        "wires": [
+            [
+                "04c272188c6d7781"
+            ]
+        ]
+    },
+    {
+        "id": "04c272188c6d7781",
+        "type": "mqtt out",
+        "z": "cddd8c4e20d2a075",
+        "g": "d60525def47a8beb",
+        "name": "",
+        "topic": "b6610502218/project/sitting/reset",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "",
+        "x": 1600,
+        "y": 1180,
+        "wires": []
+    },
+    {
+        "id": "4e998b4c9a8b25e6",
+        "type": "function",
+        "z": "cddd8c4e20d2a075",
+        "g": "5c2cc5b72c12b327",
+        "name": "filter",
+        "func": "let respond = msg.payload;\nrespond = respond.replaceAll(\"```\", \"\");\nmsg.payload = respond;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2130,
+        "y": 1320,
+        "wires": [
+            [
+                "34839dfc2bd03b68"
+            ]
+        ]
+    },
+    {
+        "id": "9fc8eeea6e23d2f2",
+        "type": "discordMessage",
+        "z": "cddd8c4e20d2a075",
+        "g": "6f8833e16bc658d8",
+        "name": "",
+        "channelIdFilter": "",
+        "token": "a34d3fb0db4417af",
+        "x": 920,
+        "y": 2040,
+        "wires": [
+            [
+                "b3e77028123c6d31",
+                "fdf0b8376ef2d59e"
+            ]
+        ]
+    },
+    {
+        "id": "c09124b2ce92f075",
+        "type": "discordMessageManager",
+        "z": "cddd8c4e20d2a075",
+        "g": "33b7d708553a6d6e",
+        "name": "",
+        "channel": "",
+        "token": "a34d3fb0db4417af",
+        "x": 2590,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5350b8e98de4b4f8",
+        "type": "discordMessageManager",
+        "z": "cddd8c4e20d2a075",
+        "g": "0505c1fd65d03d91",
+        "name": "",
+        "channel": "",
+        "token": "a34d3fb0db4417af",
+        "x": 1730,
+        "y": 2080,
+        "wires": [
+            []
+        ]
+    }
+]
