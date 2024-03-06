@@ -157,6 +157,8 @@ Incorporates the **Gemini API** for AI-powered analysis and suggestions based on
 1. Rajata Thamcharoensatit [@RJTPP](https://github.com/RJTPP) - 6610502218
 2. Phutthiphong Rodboung [@Rennis](https://github.com/PRennis) - 6610502170
 
-Computer Engineering (CPE) Faculty, Kasetsart University, Bangkok, Thailand. 
+<sub>This project was made for 01204114 Introduction to Computer Hardware Development.</sub>
 
-This project was made for 01204114 Introduction to Computer Hardware Development.
+<sup>Computer Engineering (CPE) Faculty, Kasetsart University, Bangkok, Thailand. </sup>
+
+
