@@ -24,7 +24,7 @@
 
 - Arduino IDE
 - Node-RED
-- MQTT Broker 
+- MQTT Broker
 
 ### Arduino Libraries
 
@@ -40,6 +40,7 @@
 ## Configuration
 
 ### ESP32 Modules
+
 - Update the `networkConfig.h` file in [`screen`](screen/networkConfig.h) and [`sensors`](/sensors/networkConfig.h) dictionary with your WiFi network details and MQTT broker information before flashing the ESP32 modules.
 
 <details>
@@ -132,6 +133,7 @@
 </details>
 
 ### Node-RED
+
 - Set up the Node-RED environment variables to match your configuration, particularly the Gemini API keys and Discord chanel ID.
 
 - Set up the Gemini API keys in the AI Dashboard Template
@@ -151,4 +153,11 @@ Incorporates the **Gemini API** for AI-powered analysis and suggestions based on
 
 ---
 
-**Develop by [@RJTPP](https://github.com/RJTPP)**
+**Develop by**
+
+1. Rajata Thamcharoensatit [@RJTPP](https://github.com/RJTPP) - 6610502218
+2. Phutthiphong Rodboung [@Rennis](https://github.com/PRennis) - 6610502170
+
+Computer Engineering (CPE) Faculty, Kasetsart University, Bangkok, Thailand. 
+
+This project was made for 01204114 Introduction to Computer Hardware Development.
