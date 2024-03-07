@@ -80,6 +80,8 @@ Incorporates the **Gemini API** for AI-powered analysis and suggestions based on
 
 <summary>See <code>networkConfig.h</code></summary>
 
+<br>
+
 ```c
 #define WIFI_SSID    "<WIFI_SSID>"    // Config here
 #define WIFI_PASS    "<WIFI_PASS>"    // Config here
