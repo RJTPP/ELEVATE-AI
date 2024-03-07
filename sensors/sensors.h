@@ -6,7 +6,7 @@
  * SPDX-License-Identifier: MIT
  *
  * For more information and contributions, please visit:
- * https://github.com/RJTPP
+ * https://github.com/RJTPP/ELEVATE-AI
  */
 
 
