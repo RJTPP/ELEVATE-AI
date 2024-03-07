@@ -11,6 +11,11 @@
 - Delivers a dashboard UI for data visualization and interaction.
 - Sends automated, AI-powered reminders to encourage regular movement and breaks.
 
+
+## AI Integration
+
+Incorporates the **Gemini API** for AI-powered analysis and suggestions based on the collected environmental data.
+
 ## Hardware Components
 
 - 2 x ESP32-S3 modules
@@ -36,6 +41,34 @@
 - [`MQ135`](https://github.com/NuclearPhoenixx/MQ135) for the air quality sensor.
 - [`Adafruit_SSD1306`](https://github.com/adafruit/Adafruit_SSD1306) for the OLED display control.
 - [`HCSR04`](https://github.com/gamegine/HCSR04-ultrasonic-sensor-lib) for the ultrasonic distance measurements.
+
+## Directories
+```
+ 📦 ELEVATE-AI
+ ┃
+ ┣ 📁 Node-RED
+ ┃ ┗ 📜 flows.json            # Node-RED flows
+ ┃
+ ┣ 📁 screen
+ ┃ ┣ 📜 PubSubClient.cpp      # Library
+ ┃ ┣ 📜 PubSubClient.h        # Library
+ ┃ ┣ 📜 hardwareConfig.h      # Hardware pin configuration
+ ┃ ┣ 📜 networkConfig.h       # WiFi and MQTT broker configuration
+ ┃ ┣ 📜 screen.h              # Header file for the screen code
+ ┃ ┗ 📜 screen.ino            # Main code for the screen ESP32 module
+ ┃
+ ┣ 📁 sensors
+ ┃ ┣ 📜 MQ135.cpp             # Library
+ ┃ ┣ 📜 MQ135.h               # Library
+ ┃ ┣ 📜 hardwareConfig.h      # Hardware pin configuration
+ ┃ ┣ 📜 networkConfig.h       # WiFi and MQTT broker configuration
+ ┃ ┣ 📜 sensors.h             # Header file for the sensors code
+ ┃ ┗ 📜 sensors.ino           # Main code for the sensors ESP32 module
+ ┃
+ ┣ 📜 LICENSE                 # License file
+ ┣ 📜 README.md               # This file
+ ┗ 📜 project-detail.md       # Project details and explanation
+```
 
 ## Configuration
 
@@ -141,10 +174,6 @@
 <img width="695" alt="node-red-env" src="https://github.com/RJTPP/elevate-ai-public/assets/97868966/439054ae-e11f-410c-9722-cbed81b72752">
 
 
-## AI Integration
-
-Incorporates the **Gemini API** for AI-powered analysis and suggestions based on the collected environmental data.
-
 ## Installation
 
 1. Flash the ESP32-S3 modules with the provided firmware, ensuring the `networkConfig.h` file is configured with your network details.
@@ -152,7 +181,7 @@ Incorporates the **Gemini API** for AI-powered analysis and suggestions based on
 3. Establish the MQTT broker for communication between the ESP32 modules and Node-RED.
 4. Access the dashboard through Node-RED UI to monitor environmental conditions and receive AI-based recommendations.
 
-## Develop by
+## Developed by
 
 1. Rajata Thamcharoensatit [@RJTPP](https://github.com/RJTPP) - 6610502218
 2. Phutthiphong Rodboung [@Rennis](https://github.com/PRennis) - 6610502170
