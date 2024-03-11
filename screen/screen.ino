@@ -635,7 +635,7 @@ void renderChartPage(int temperature, int humidity, int uv, int lightLevel, int 
   int temperatureChartHeight = (temperature / 45.0f) * chartHeight;
   int humidityChartHeight = (humidity / 100.0f) * chartHeight;
   int uvChartHeight = (uv / 11.0f) * chartHeight;
-  int lightLevelChartHeight = (lightLevel / 50000.0f) * chartHeight;
+  int lightLevelChartHeight = (lightLevel / 2000.0f) * chartHeight;
   int airQualityChartHeight = (airQuality / 2000.0f) * chartHeight;
 
   if (lightLevelChartHeight > chartHeight) {
