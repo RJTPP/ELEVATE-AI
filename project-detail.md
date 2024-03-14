@@ -33,6 +33,11 @@
 
 <br>
 
+
+<center><a href='https://i.postimg.cc/QC569hq9/esp32.avif' target='_blank'><img src='https://i.postimg.cc/QC569hq9/esp32.avif' border='0' alt='all-flow' style="width:90%; border-radius: 1vw"/></a></center>
+
+<br>
+
 **ฟังก์ชันเสริม**
 
 - เชื่อมต่อ WiFi และ MQTT broker ใหม่โดยอัติโนมัติเมื่อการเชื่อมต่อขาดหาย
